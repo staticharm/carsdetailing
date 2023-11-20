@@ -1,0 +1,115 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width initial-scale=1.0">
+    <title>Auto garage </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a  href="home.html" ><img height="100px" width="150px" src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-times" onclick="hidemenu()" ></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1 >WELCOME TO AUTO GARAGE</h1>
+            <p> “Perfection is in the Detail”, this is what we believe in. We are called
+                 “The King of the Detailing World” <br>by the Automotive Detailing Industry. 
+                 Our skilled and trained personnel have turned <br>ordinary looking cars into 
+                 Fabulous-looking Ones. With all hands-on decks, we strive to impress.<br> 
+                 Our hard work and long hours have turned many tough-stained Cars into mesmerizing 
+                 beauties.<br>We pat our backs for having the Perfect Eye for Car Detailing. 
+                 We imbibe 
+                 a wide range of <br>car care products, like the Clarity Coat ,Ceramic Coating ,
+                 Paint Protection Film and so on,<br> that can be customized as per your vehicle’s 
+                 requirements </p>
+            
+                <a href="about.html" class="know-more" >Know more </a>
+             
+            
+        </div>
+    </section>
+<!-----services------>
+    <section class="service">
+        <h1>SERVICES OFFERED</h1>
+        <div class="row">
+            <div class="servicecol">
+                <h3>Interior detailing</h3>
+                <p>Car interior detailing refers to thoroughly cleaning the inside of your vehicle.
+                 We will clean the dashboard, seats, steering wheel, carpets, mats,
+                 and other interior surfaces. </p>
+            </div>
+            <div class="servicecol">
+                <h3>Exterior detailing</h3>
+                <p> It involves vacuuming, restoring, and surpassing the original condition of the 
+                    exterior constituents of a vehicle, such as tires, windows and wheels, among 
+                    other visible components.</p>
+            </div>
+            <div class="servicecol">
+                <h3>PPF care</h3>
+                <p>A Paint Protection Film or PPF is a clear or tinted film applied to a vehicle’s 
+                    exterior surface to protect the paint from various forms of damage. It is 
+                    usually made of a thin layer of Urethane, which is transparent and self-healing.
+
+                   </p>
+            </div>
+            
+            
+        </div>
+    </section>
+    <section class="service">
+        <div class="row">
+        <div class="servicecol">
+            <h3>Ozone Air Purification</h3>
+            <p> In the post-COVID era, every car owner needs to be aware of his environment and
+                 ensure a safe and hygienic cabin space. Unpleasant odours, bacteria, and 
+                 viruses are removed by placing an Ozone Generator inside the car
+
+               </p>
+        </div>
+        <div class="servicecol">
+            <h3>One Step Polish And Wax</h3>
+            <p> Your prized possessions receive the same love and care that you give them after
+                 they come into the detailing studio
+
+               </p>
+        </div>
+        <div class="servicecol">
+            <h3>Mold Removal for Your Air Conditioner</h3>
+            <p> Mold Removal for Your Air Conditioner: This is another service that some 
+                 detail shops may offer
+
+               </p>
+        </div>
+    </div>
+    </section>
+
+    
+<!---------------JAVA SCRIPT FOR TOGGLE MENU--------------->
+    <script>
+        var navlink= document.getElementById("navlinks");
+        function showmenu(){
+            navlink.style.right="0";
+        }
+        function hidemenu(){
+            navlink.style.right="-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>
